@@ -17,7 +17,7 @@ The script does following settings:
  3. If desired, it load a basic mysql-dump to the database.
  4. It adds a new group called 'fai' and add the webserver user to it.
  5. It change permissions for the following directory to the group 'fai':
-    ..* /srv/tftp/fai/pxelinux.cfg
+ ..* /srv/tftp/fai/pxelinux.cfg
     ..* /srv/fai/config/files/etc/network/interfaces
     ..* /srv/fai/config/files/etc/hosts
     ..* /srv/fai/config/class
