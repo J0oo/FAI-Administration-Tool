@@ -1,9 +1,10 @@
 # FAI-Frontend
-Simple Frontend for FAI to generate client configurations. The configurations are for PXE-Boot and the following installation with FAI.
-This Frontend is just a test development.
-The following instructions and installation script are only tested on Debian systems.
+This is a simple frontend to create configurations for boot over PXE and install with FAI. This project is using the project from Thomas Lange *Fully Automatic Installation*. For more information show [fai-project.org](http://fai-project.org/).
+
+This Frontend is just a test development. The following instructions and installation script are only tested on Debian systems.
 
 # What it does
+This frontend is used to create client configurations for PXE boot and installation with FAI. It creates a PXE configuration file pxelinux.cfg, a network and host configuration file and optional a new password to the class configuration. Furhtermore, you can manage a overview for FAI classes. Moreover, there is a monitoring page, which shows the current states of installation. 
 
 # Prerequesite
 FAI packages from fai-project.org must be installed on the system. Furthermore the directory for PXE configurations must be on */srv/tftp/fai/pxelinux.cfg.*
