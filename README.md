@@ -11,7 +11,7 @@ FAI packages from fai-project.org must be installed on the system. Furthermore t
 # Installation
 There is a script 'configure.sh' that installs all missing packages and configure the environment. Be careful for using this script. 
 The script does following settings:
-Markup : 1. It installs the webserver Apache, some PHP packages, the database MySQL and sudo.
+1.It installs the webserver Apache, some PHP packages, the database MySQL and sudo.
     Package names: apache2 libapache2-mod-php5 php5 php5-common php5-json php5-ldap php5-mcrypt php5-mysql mysql-server sudo
 2. It removes the index.html in /var/www/html/ and copy the frontend-files to /var/www/html.
 3. If desired, it load a basic mysql-dump to the database.
@@ -21,7 +21,10 @@ Markup : 1. It installs the webserver Apache, some PHP packages, the database My
     - /srv/fai/config/files/etc/network/interfaces
     - /srv/fai/config/files/etc/hosts
     - /srv/fai/config/class
-    
+ -test
+ - test
+ *test
+ * test
 For more informations look at 'configure.sh'.
 
 # Follow-up
