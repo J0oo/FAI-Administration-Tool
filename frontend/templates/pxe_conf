@@ -1,0 +1,8 @@
+# PXE Configuration File
+
+DEFAULT fai
+
+LABEL fai
+KERNEL %KERNEL
+APPEND initrd=%INITRD ip=dhcp root=%FAI_SERVER:%PATH%NFSROOT aufs FAI_FLAGS==verbose,sshd,createvt,reboot FAI_ACTION=install hostname=%HOSTNAME ADDCLASSES=%ADDCLASSES
+

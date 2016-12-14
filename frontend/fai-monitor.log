@@ -1,0 +1,90 @@
+myhost check
+myhost TASKBEGIN confdir
+myhost TASKEND confdir 0
+myhost TASKBEGIN setup
+myhost TASKEND setup 0
+myhost TASKBEGIN defclass
+myhost TASKEND defclass 0
+myhost TASKBEGIN defvar
+myhost TASKEND defvar 0
+myhost TASKBEGIN action
+myhost TASKBEGIN install
+myhost TASKBEGIN partition
+myhost TASKEND partition 0
+myhost TASKBEGIN mountdisks
+myhost TASKEND mountdisks 0
+myhost TASKBEGIN extrbase
+myhost TASKEND extrbase 0
+myhost TASKBEGIN debconf
+myhost TASKEND debconf 0
+myhost TASKBEGIN repository
+myhost TASKEND repository 0
+myhost TASKBEGIN updatebase
+myhost TASKEND updatebase 0
+myhost TASKBEGIN instsoft
+myhost TASKEND instsoft 0
+myhost TASKBEGIN configure
+myhost TASKEND configure 0
+myhost TASKBEGIN tests
+myhost TASKEND tests 0
+myhost HOOK finish.DEBIAN
+myhost HOOK finish.ESXVM
+myhost HOOK finish.DEBIAN8
+myhost TASKBEGIN finish
+myhost TASKEND finish 0
+myhost HOOK chboot.DEBIAN
+myhost TASKSKIP chboot
+myhost HOOK savelog.LAST.sh
+myhost TASKBEGIN savelog
+myhost TASKEND savelog 0
+myhost TASKEND install 0
+myhost TASKBEGIN faiend
+myhost TASKEND faiend 0
+myhost TASKEND reboot 0
+
+myhost check
+myhost TASKBEGIN confdir
+myhost TASKEND confdir 0
+myhost TASKBEGIN setup
+myhost TASKEND setup 0
+myhost TASKBEGIN defclass
+myhost TASKEND defclass 0
+myhost TASKBEGIN defvar 
+myhost TASKEND defvar 0
+myhost TASKBEGIN action 
+myhost TASKBEGIN install
+myhost TASKBEGIN partition
+
+myhost check
+myhost TASKBEGIN confdir
+myhost TASKEND confdir 0
+myhost TASKBEGIN setup
+myhost TASKEND setup 0
+myhost TASKBEGIN defclass
+myhost TASKEND defclass 0
+myhost TASKBEGIN defvar
+myhost TASKEND defvar 0
+myhost TASKBEGIN action
+myhost TASKBEGIN install
+myhost TASKBEGIN partition
+myhost TASKEND partition 0
+myhost TASKBEGIN mountdisks
+myhost TASKEND mountdisks 0
+myhost TASKBEGIN extrbase
+myhost TASKEND extrbase 0
+myhost TASKBEGIN debconf
+myhost TASKEND debconf 0
+myhost TASKBEGIN repository
+myhost TASKEND repository 0
+myhost TASKBEGIN updatebase
+myhost TASKEND updatebase 0
+myhost TASKBEGIN instsoft
+myhost TASKEND instsoft 300
+
+myhost check
+myhost TASKBEGIN confdir
+myhost TASKEND confdir 0
+myhost TASKBEGIN setup
+myhost TASKEND setup 0
+myhost TASKBEGIN defclass
+myhost TASKEND defclass 800
