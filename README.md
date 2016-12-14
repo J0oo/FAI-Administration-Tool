@@ -11,7 +11,7 @@ The FAI-Administration-Tool is free software, distributed under the terms of the
 This project has been developed to simplify the use of FAI. The main functionality is to create some client configurations for PXE boot and configurations for installation with FAI. Moreover, you can monitor the installation over a frontend, which shows the current states during installation. The monitoring is based on the tool *fai-monitor*.
 
 # Prerequesite
-FAI packages from [fai-project.org](http://fai-project.org/) must be installed on the system. Furthermore the directory for PXE configurations must be on */srv/tftp/fai/pxelinux.cfg*.
+FAI packages from [fai-project.org](http://fai-project.org/) must be installed on the system. Furthermore the directory for PXE configurations must be on */srv/tftp/fai/pxelinux.cfg* and the nfsroot directory on */srv/fai/nfsroot*.
 If not, you must change the right paths in all files.
 
 The frontend gets the Bootstrap files from a CDN. You also can download and host Bootstrap by yourself. For this you must change the link and sources in the *header.php* and the link in the *index.php*.
