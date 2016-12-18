@@ -42,13 +42,17 @@ It is possible to use LDAP to login to the frontend. You can edit the LDAP setti
 ## Formular view
 On this side, you can create the client configurations.
 Note: The FAI-Classes you can add, are only the classes that won’t be added dynamically during installation. Currently the choice of a dynamic IP assignment doesn’t create a network and host configuration.
+![Formular](/screenshots/formular.png?raw=true "Formular View")
 
 ## Class view
 This is an overview of all classes in your database with a short description.
+![Classes](/screenshots/classes.png?raw=true "Class View")
 
 ## Monitoring view
 The monitoring view gives you feedback about the current state during the installation. With AJAX the states are continuously updated. This side is based on the tool *fai-monitor*. Furthermore, you see whether *fai-monitor* is running or not.
+![Monitoring](/screenshots/monitoring.png?raw=true "Monitoring View")
 
-## Installclients
+## Installclients view
 This view represents a table of all created client configurations.
 Note: The classes shown in this table are only the ones that have been added in the formular view (meaning: not dynamically added).
+![Installclients](/screenshots/installclients.png?raw=true "Installclients View")
